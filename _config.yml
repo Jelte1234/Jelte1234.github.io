@@ -11,34 +11,37 @@ collections:
   design:
     output: true
     name: 'Design'
+    permalink: 'design/:name'
   cad:
     output: true
     name: 'CAD/CAM/3D printing'
-    permalink: 'design/:name'
+    permalink: 'design/cad/:name'
   tinkerworks_design:
     output: true
     name: 'Tinkerworks Design'
-    permalink: 'design/:name'
+    permalink: 'design/tinkerworks/:name'
   photography:
     output: true
     name: 'Photography'
+    permalink: 'photography/:name'
   photo_various:
     output: true
     name: 'Various works'
-    permalink: 'photography/:name'
+    permalink: 'photography/various/:name'
   video:
     output: true
     name: 'Video'
-    permalink: 'photography/:name'
+    permalink: 'photography/video/:name'
   tinkerworks_photography:
     output: true
     name: 'Tinkerworks Photography'
-    permalink: 'photography/:name'
+    permalink: 'photography/tinkerworks/:name'
   tinkering:
     output: true
     name: 'Tinkering'
+    permalink: 'tinkering/:name'
   tinkerworks:
     output: true
     name: 'Tinkerworks'
-    permalink: 'tinkering/:name'
+    permalink: 'tinkering/tinkerworks/:name'
 
