@@ -10,17 +10,24 @@
     </head>
     <body>
         <div class="page-wrapper" >
-            <h1 class="site-title">
-                {{ site.title }}
-            </h1>
+            <!-- <h1 class="site-title">
+                 {{ site.title }}
+                 </h1> -->
 
-            <nav class="main-menu">
+            <div class="main-menu ui large inverted stackable menu">
+                <nav class="main-menu-inner ui container stackable huge inverted secondary pointing menu">
+                    
+                <a href="/" class="ui item {% if page.url == "/" %}active{% endif %}">
+                    {{ site.title }}
+                </a>
+                <a class="ui right item"></a>
                 {% for menu_page in site.pages %}
                     {% if menu_page.menu_item %}
-                <a href="{{ menu_page.url | relative_url }}" class="{% if menu_page.url == page.url or page.categories[0] == menu_page.menu_item %}current{% endif %}">{{ menu_page.menu_item }}</a>
+                <a href="{{ menu_page.url | relative_url }}" class="ui item {% if menu_page.url == page.url or page.categories[0] == menu_page.menu_item %}active{% endif %}">{{ menu_page.menu_item }}</a>
                     {% endif %}
                 {% endfor %}
-            </nav>
+                </nav>
+            </div>
 
             <div class="content-wrapper">
                 <div class="ui container">
