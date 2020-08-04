@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="ui stackable mobile reversed grid">
+    <div class="ten wide column">
+        {{content}}
+    </div>
+    <div class="six wide column" markdown="1">
+
+        <img class="ui centered rounded image" src="{{site.portrait_picture_path}}" alt="Joanne Rigterink" title="Joanne Rigterink"/>
+
+        <div class="social-media-icons below-portrait-image">
+            {% for item in site.data.social_media %}
+            <a href="{{ item.url }}">
+                <img alt="{{ item.name}}" title="{{ item.name }}" src="{{ item.image_path | relative_url }}"/>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
