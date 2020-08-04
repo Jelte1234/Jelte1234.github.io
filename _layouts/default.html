@@ -23,7 +23,16 @@
                 {% assign page_url_segments = page.url | split: "/" %}
                 {% for menu_page in site.pages %}
                     {% if menu_page.menu_item %}
-                <a href="{{ menu_page.permalink | relative_url }}" class="ui item {% if menu_page.permalink == page.url or page.categories[0] == menu_page.menu_item or page_url_segments contains menu_page.basename %}active{% endif %}">{{ menu_page.menu_item }}</a>
+                <div  class="ui simple dropdown item {% if menu_page.permalink == page.url or page.categories[0] == menu_page.menu_item or page_url_segments contains menu_page.basename %}active{% endif %}">
+                    <a href="{{ menu_page.permalink | relative_url }}">
+                        {{ menu_page.menu_item }}
+                    </a>
+                    <div class="menu dropdown-menu">
+                        <div class="item">Choice 1</div>
+                        <div class="item">Choice 2</div>
+                        <div class="item">Choice 3</div>
+                    </div>
+                </div>
                     {% endif %}
                 {% endfor %}
                 </nav>

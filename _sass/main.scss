@@ -71,6 +71,21 @@ div.ui.menu.main-menu {
     & > .main-menu-inner {
         background-color: transparent;
         border: none;
+
+        .ui.simple.dropdown > .menu.dropdown-menu {
+            margin-top: -5px;
+            background-color: $menuBgColor;
+            .item {
+                color: white !important;
+            }
+        }
+
+        .ui.simple.active.dropdown > .menu{
+            display: none;
+        }
+        .ui.simple.active.dropdown:hover > .menu{
+            display: block;
+        }
     }
 }
 
