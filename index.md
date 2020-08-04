@@ -7,6 +7,4 @@ menu_item: "About"
 
 ## Personal Story
 
-Dit mag je invullen
-
-
+Dit mag je invullen!
