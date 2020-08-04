@@ -45,3 +45,30 @@ collections:
     name: 'Tinkerworks'
     permalink: 'tinkering/tinkerworks/:name'
 
+
+menu_dropdown:
+  - name: 'Design'
+    url: '/design/'
+    items:
+      - name: 'CAD/CAM/3D printing'
+        url: '/design/cad/'
+      - name: 'Tinkerworks Design'
+        url: '/design/tinkerworks/'
+  - name: 'Photography'
+    url: '/photography'
+    items:
+      - name: 'Various work'
+        url: '/photography/various/'
+      - name: 'Video'
+        url: '/photography/video/'
+      - name: 'Tinkerworks Photography'
+        url: '/photography/tinkerworks/'
+  - name: 'Tinkering'
+    url: '/tinkering/'
+    items:
+      - name: 'Tinkerworks'
+        url: '/tinkering/tinkerworks'
+      - name: 'Design'
+        url: '/design/tinkerworks'
+      - name: 'Photography'
+        url: '/photography/tinkerworks/'
