@@ -4,3 +4,32 @@ title: "Tinkerworks • Jelte Klas Wijnja" # the name of your site, e.g. ACME Co
 email: "jelte1234@live.nl" # Shown in the footer and on the index.html 'about' page
 permalink: none # We don't want dates to be included in post links, since we're building a portfolio
 portrait_picture_path: "/images/portrait.png" # The portrait used on the main index.html 'about' page.
+
+collections:
+  design:
+    output: true
+    name: 'Design'
+    cad:
+      output: true
+      name: 'CAD/CAM/3D printing'
+    tinkerworks_design:
+      output: true
+      name: 'Tinkerworks Design'
+  photography:
+    output: true
+    name: 'Photography'
+    various:
+      output: true
+      name: 'Various works'
+    video:
+      output: true
+      name: 'Video'
+    tinkerworks_photography:
+      output: true
+      name: 'Tinkerworks Photography'
+  tinkering:
+    output: true
+    name: 'Tinkering'
+    tinkerworks:
+      output: true
+      name: 'Tinkerworks'
