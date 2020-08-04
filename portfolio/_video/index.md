@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tinkerworks Photography"
+title: "Video"
 ---
 
 {% include list_portfolio_items.html collection=site.video %}

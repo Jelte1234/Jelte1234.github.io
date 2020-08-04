@@ -1,5 +1,6 @@
 <div class="ui three column stackable doubling centered grid portfolio">
-    {% for item in include.collection %}
+    {% assign items = include.collection | sort_by: date %}
+    {% for item in items %}
     {% assign url_parts = item.url | split: "/" %}
     {% unless url_parts.last contains "index" %}
     <a href="{{ item.url | relative_url }}/" class="ui column portfolio-item">

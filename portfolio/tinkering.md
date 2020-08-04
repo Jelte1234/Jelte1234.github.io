@@ -6,13 +6,7 @@ permalink: '/tinkering/'
 basename: 'tinkering'
 ---
 
+{% assign all = site.tinkering | concat: site.tinkerworks_design | concat: site.tinkerworks_photography %}
 
-<div class="ui three column stackable doubling centered grid portfolio">
-  {% for item in site.tinkering %}
-  <a href="{{ item.url | relative_url }}/" class="ui column portfolio-item">
-    <img class="ui fluid rounded image" alt="{{ item.title }}" title="{{ item.name }}" src="{{ item.preview_image_url | relative_url }}"/>
-  </a>
-  {% endfor %}
-</div>
-
+{% include list_portfolio_items.html collection=all %}
 
