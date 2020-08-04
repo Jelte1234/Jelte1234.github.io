@@ -5,6 +5,8 @@ email: "jelte1234@live.nl" # Shown in the footer and on the index.html 'about' p
 permalink: none # We don't want dates to be included in post links, since we're building a portfolio
 portrait_picture_path: "/images/portrait.png" # The portrait used on the main index.html 'about' page.
 
+collections_dir: 'portfolio'
+
 collections:
   design:
     output: true
@@ -33,3 +35,4 @@ collections:
     tinkerworks:
       output: true
       name: 'Tinkerworks'
+
