@@ -16,14 +16,14 @@
 
             <div class="main-menu ui large inverted stackable menu">
                 <nav class="main-menu-inner ui container stackable huge inverted secondary pointing menu">
-                    
                 <a href="/" class="ui item {% if page.url == "/" %}active{% endif %}">
                     {{ site.title }}
                 </a>
                 <a class="ui right item"></a>
+                {% assign page_url_segments = page.url | split: "/" %}
                 {% for menu_page in site.pages %}
                     {% if menu_page.menu_item %}
-                <a href="{{ menu_page.permalink | relative_url }}" class="ui item {% if menu_page.permalink == page.url or page.categories[0] == menu_page.menu_item %}active{% endif %}">{{ menu_page.menu_item }}</a>
+                <a href="{{ menu_page.permalink | relative_url }}" class="ui item {% if menu_page.permalink == page.url or page.categories[0] == menu_page.menu_item or page_url_segments contains menu_page.basename %}active{% endif %}">{{ menu_page.menu_item }}</a>
                     {% endif %}
                 {% endfor %}
                 </nav>

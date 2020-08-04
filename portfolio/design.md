@@ -3,6 +3,7 @@ layout: default
 title: "Design"
 menu_item: "Design"
 permalink: '/design/'
+basename: 'design'
 ---
 
 {% assign all = site.design | concat: site.cad | concat: site.tinkerworks_design %}

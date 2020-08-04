@@ -3,6 +3,7 @@ layout: default
 title: "Tinkering"
 menu_item: "Tinkering"
 permalink: '/tinkering/'
+basename: 'tinkering'
 ---
 
 

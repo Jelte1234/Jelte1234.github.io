@@ -3,6 +3,7 @@ layout: default
 title: "Photography"
 menu_item: "Photography"
 permalink: '/photography/'
+basename: 'photography'
 ---
 
 
