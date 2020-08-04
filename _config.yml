@@ -11,28 +11,34 @@ collections:
   design:
     output: true
     name: 'Design'
-    cad:
-      output: true
-      name: 'CAD/CAM/3D printing'
-    tinkerworks_design:
-      output: true
-      name: 'Tinkerworks Design'
+  cad:
+    output: true
+    name: 'CAD/CAM/3D printing'
+    permalink: 'design/:name'
+  tinkerworks_design:
+    output: true
+    name: 'Tinkerworks Design'
+    permalink: 'design/:name'
   photography:
     output: true
     name: 'Photography'
-    various:
-      output: true
-      name: 'Various works'
-    video:
-      output: true
-      name: 'Video'
-    tinkerworks_photography:
-      output: true
-      name: 'Tinkerworks Photography'
+  photo_various:
+    output: true
+    name: 'Various works'
+    permalink: 'photography/:name'
+  video:
+    output: true
+    name: 'Video'
+    permalink: 'photography/:name'
+  tinkerworks_photography:
+    output: true
+    name: 'Tinkerworks Photography'
+    permalink: 'photography/:name'
   tinkering:
     output: true
     name: 'Tinkering'
-    tinkerworks:
-      output: true
-      name: 'Tinkerworks'
+  tinkerworks:
+    output: true
+    name: 'Tinkerworks'
+    permalink: 'tinkering/:name'
 
