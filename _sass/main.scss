@@ -39,6 +39,10 @@ div.ui.menu.main-menu {
     padding: $menuHeight;
     background-color: $menuBgColor;
 
+    .ui.item.brand {
+        font-style: italic;
+    }
+
     /* background-color: $menuBgColor; */
     /* font-size: 1.5em; */
 
