@@ -6,6 +6,68 @@ $menuHeight: 1.5em;
 $footerHeight: 55px;
 $socialMediaHoverColor: #13aff0;
 
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  [class*="mobile hidden"],
+  [class*="tablet only"]:not(.mobile),
+  [class*="computer only"]:not(.mobile),
+  [class*="large screen only"]:not(.mobile),
+  [class*="widescreen only"]:not(.mobile),
+  [class*="or lower hidden"] {
+    display: none !important;
+  }
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  [class*="mobile only"]:not(.tablet),
+  [class*="tablet hidden"],
+  [class*="computer only"]:not(.tablet),
+  [class*="large screen only"]:not(.tablet),
+  [class*="widescreen only"]:not(.tablet),
+  [class*="or lower hidden"]:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  [class*="mobile only"]:not(.computer),
+  [class*="tablet only"]:not(.computer),
+  [class*="computer hidden"],
+  [class*="large screen only"]:not(.computer),
+  [class*="widescreen only"]:not(.computer),
+  [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  [class*="mobile only"]:not([class*="large screen"]),
+  [class*="tablet only"]:not([class*="large screen"]),
+  [class*="computer only"]:not([class*="large screen"]),
+  [class*="large screen hidden"],
+  [class*="widescreen only"]:not([class*="large screen"]),
+  [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+  [class*="mobile only"]:not([class*="widescreen"]),
+  [class*="tablet only"]:not([class*="widescreen"]),
+  [class*="computer only"]:not([class*="widescreen"]),
+  [class*="large screen only"]:not([class*="widescreen"]),
+  [class*="widescreen hidden"],
+  [class*="widescreen or lower hidden"] {
+    display: none !important;
+  }
+}
+
 body {
   background-color: $backgroundColor;
   background: url("/assets/images/background.png");
@@ -32,7 +94,7 @@ body {
     }
 }
 
-div.ui.menu.main-menu {
+.ui.menu.main-menu {
     /* text-align: center; */
     margin: 2em 0em;
     margin-top: 0em;
@@ -43,35 +105,6 @@ div.ui.menu.main-menu {
         font-style: italic;
     }
 
-    /* background-color: $menuBgColor; */
-    /* font-size: 1.5em; */
-
-    /* @media screen and (max-width: 765px) { */
-    /*     font-size: 0.7em; */
-    /*     padding: $menuHeight / 2; */
-    /*     margin-top: 1em; */
-    /*     margin-bottom: 3em; */
-
-    /* } */
-
-    /* a { */
-    /*     padding: $menuHeight; */
-    /*     margin: 1em; */
-
-    /*     color: black; */
-    /*     text-decoration: none; */
-    /*     text-transform: Capitalize; */
-
-    /*     transition-duration: 0.2s; */
-    /* } */
-
-    /* &:not(:hover) > a.current, a:hover, a:active { */
-    /*     margin: -1em; */
-    /*     padding: ($menuHeight * 1.25) ($menuHeight * 2); */
-
-    /*     background-color: rgb(255, 255, 128); */
-    /*     box-shadow: 0 0 3px black; */
-    /* } */
     & > .main-menu-inner {
         background-color: transparent;
         border: none;
@@ -89,6 +122,16 @@ div.ui.menu.main-menu {
         }
         .ui.simple.active.dropdown:hover > .menu{
             display: block;
+        }
+    }
+}
+
+.ui.menu.main-menu-mobile {
+    background-color: $menuBgColor;
+
+    & > .main-menu-inner {
+        .pointing.menu {
+            border: none;
         }
     }
 }

@@ -13,8 +13,7 @@
             <!-- <h1 class="site-title">
                  {{ site.title }}
                  </h1> -->
-
-            <div class="main-menu ui large inverted stackable menu">
+            <div class="main-menu ui large inverted menu mobile hidden">
                 <nav class="main-menu-inner ui container huge inverted secondary pointing menu">
                 <a href="/" class="ui brand item {% if page.url == "/" %}active{% endif %}">
                     {{ site.title }}
@@ -39,6 +38,33 @@
                     </div>
                 {% endfor %}
                 </nav>
+            </div>
+
+            <div class="main-menu-mobile ui large inverted menu mobile only">
+                <nav class="main-menu-inner ui container huge inverted secondary vertical pointing menu">
+                <a href="/" class="ui brand item {% if page.url == "/" %}active{% endif %}">
+                    {{ site.title }}
+                </a>
+                {% assign page_url_segments = page.url | split: "/" %}
+                {% for menu_page in site.menu_dropdown %}
+                    <div  class="ui item {% if menu_page.url == page.url or page.url contains menu_page.url %}active{% endif %}">
+                        <a href="{{ menu_page.url | relative_url }}" class="header">
+                            {{ menu_page.name }}
+                        </a>
+                        <div class="ui inverted secondary vertical pointing menu">
+                            <!-- <div class="item">Choice 1</div>
+                                 <div class="item">Choice 2</div>
+                                 <div class="item">Choice 3</div> -->
+                            {% for dropdown_page in menu_page.items %}
+                                <a href="{{ dropdown_page.url }}" class="item {% if dropdown_page.url == page.url or page.url contains dropdown_page.url %}active{% endif %}">
+                                    {{ dropdown_page.name }}
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endfor %}
+                </nav>
+
             </div>
 
             <div class="content-wrapper">
