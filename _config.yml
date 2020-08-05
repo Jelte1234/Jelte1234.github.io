@@ -1,9 +1,9 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Tinkerworks • Jelte Klas Wijnja" # the name of your site, e.g. ACME Corp.
-email: "jelte1234@live.nl" # Shown in the footer and on the index.html 'about' page
+email: "jelteklaswijnja@gmail.com" # Shown in the footer and on the index.html 'about' page
 permalink: none # We don't want dates to be included in post links, since we're building a portfolio
-portrait_picture_path: "/images/portrait.png" # The portrait used on the main index.html 'about' page.
+portrait_picture_path: "/images/portrait.jpg" # The portrait used on the main index.html 'about' page.
 
 collections_dir: 'portfolio'
 
