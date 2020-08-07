@@ -27,10 +27,22 @@ When using this camera, the way you have to look at the world around you changes
 
 In this picture, I tried to explore leading lines in a different direction, and see how a low camera standpoint affects the perception
 
-<img class="ui right floated image" src="/assets/images/photography/photo_various/illustrative/sputnik3d.jpg"/>
-
+<div class="ui two column grid">
+<div class="column">
 Here, I added some Red/Blue anaglyph glasses to the front of the camera. It not only looks silly, but it filters the incoming light. The idea behind this was to use the filtering to get different color intensities on each picture, to get a duotone image in the end. (not full color, since no green was registered.) Upon viewing, the same glasses are worn, hopefully giving the effect of some color in the image.
+</div>
+<div class="column">
+  <img class="ui huge image" src="/assets/images/photography/photo_various/illustrative/sputnik3d.jpg"/>
+</div>
+</div>
 
+
+<div class="ui two column grid">
+<div class="column">
 <img class="ui huge centered image" src="/assets/images/photography/photo_various/photos/2020-06-23 Sputnik Kodak400tx@200 phot005RBanaglyphwebready.jpg"/>
-
+</div>
+<div class="column">
 Theoretically, this image should be viewed with red/blue anaglyph glasses. However, it didn't work out entirely anyway. Due to the pole being saturated red, it's not showing up at all to the blue eye, whereas it's the same intensity as the white for the red eye. So, while the effect is interesting, it isn't suitable for saturated colors at least. Perhaps a less-strong filter could work for this application, however I don't have those on hand.
+</div>
+</div>
+
