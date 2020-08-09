@@ -4,7 +4,8 @@
     {% assign url_parts = item.url | split: "/" %}
     {% unless url_parts.last contains "index" %}
     <a href="{{ item.url | relative_url }}" class="ui column portfolio-item">
-        <img class="ui fluid rounded image" alt="{{ item.title }}" title="{{ item.name }}" src="{{ item.preview_image_url | relative_url }}"/>
+        <img class="ui fluid rounded image" alt="{{ item.title }}" title="{{ item.title }}" src="{{ item.preview_image_url | relative_url }}"/>
+        <h3 class="ui center aligned inverted header">{{ item.title }}</h3>
     </a>
     {% endunless %}
     {% endfor %}
