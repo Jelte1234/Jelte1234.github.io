@@ -212,14 +212,23 @@ footer {
 }
 
 
-.portfolio {
-    .portfolio-item {
+.cards.portfolio {
+    .card.portfolio-item {
         margin-bottom: 1em;
         transition-duration: 0.2s;
         position: relative;
+        background-color: transparent;
+        box-shadow: none;
 
         &:hover {
+            background-color: transparent;
+            box-shadow: none;
+
             transform: translateY(-5px);
+        }
+
+        .content .header {
+            color: white;
         }
     }
 }

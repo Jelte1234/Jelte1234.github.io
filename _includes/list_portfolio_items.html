@@ -1,11 +1,15 @@
-<div class="ui three column stackable doubling centered grid portfolio">
+<div class="ui three stackable doubling centered grid cards portfolio">
     {% assign items = include.collection | sort_by: date %}
     {% for item in items %}
     {% assign url_parts = item.url | split: "/" %}
     {% unless url_parts.last contains "index" %}
-    <a href="{{ item.url | relative_url }}" class="ui column portfolio-item">
-        <img class="ui fluid rounded image" alt="{{ item.title }}" title="{{ item.title }}" src="{{ item.preview_image_url | relative_url }}"/>
-        <h3 class="ui center aligned inverted header">{{ item.title }}</h3>
+    <a href="{{ item.url | relative_url }}" class="ui card portfolio-item">
+        <div class="image">
+            <img class="ui middle aligned fluid rounded image" alt="{{ item.title }}" title="{{ item.title }}" src="{{ item.preview_image_url | relative_url }}"/>
+        </div>
+        <div class="content">
+            <h3 class="ui center aligned inverted header">{{ item.title }}</h3>
+        </div>
     </a>
     {% endunless %}
     {% endfor %}
