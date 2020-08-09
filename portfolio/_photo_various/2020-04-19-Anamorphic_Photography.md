@@ -26,7 +26,7 @@ Anyway, enough about the history. On to the pictures.
 <br/>
 <br/>
 
-<img class="ui huge centered image" src="/assets/images/photography/photo_various/photos/JKW_7741 stretch halfreswebready-.jpg"/>
+<img class="ui fluid centered image" src="/assets/images/photography/photo_various/photos/JKW_7741 stretch halfreswebready-.jpg"/>
 <br/>
 
 In this photo, you can see a few things- the center sharpness is quite good, while edge sharpness gets progressively worse. (this gets better if stopped down) Also, that this format is indeed  W I D E. None of the images in this post are cropped at all- they're showing the full originally 3:2 negative, which has now been expanded to a crazy 6:2 (3:1) photo.
@@ -34,7 +34,7 @@ In this photo, you can see a few things- the center sharpness is quite good, whi
 <br/>
 <br/>
 
-<img class="ui huge centered image" src="/assets/images/photography/photo_various/photos/JKW_7751 stretch halfreswebready-.jpg"/>
+<img class="ui fluid centered image" src="/assets/images/photography/photo_various/photos/JKW_7751 stretch halfreswebready-.jpg"/>
 <br/>
 
 In close-ups, the distinct look that anamorphics bring becomes more noticeable. Combine this with the soft bokeh of the 100mm lens, and the overall effect is quite nice.
@@ -44,7 +44,7 @@ I've also darkroom-printed this photo (which requires a crazy darkroom setup) fo
 <br/>
 <br/>
 
-<img class="ui huge centered image" src="/assets/images/photography/photo_various/photos/JKW_8676bewerkt-8676.tifbewerkt-large-8676webready-8676.jpg"/>
+<img class="ui fluid centered image" src="/assets/images/photography/photo_various/photos/JKW_8676bewerkt-8676.tifbewerkt-large-8676webready-8676.jpg"/>
 <br/>
 
 
@@ -52,7 +52,7 @@ I've also darkroom-printed this photo (which requires a crazy darkroom setup) fo
 <br/>
 
 
-<img class="ui huge centered image" src="/assets/images/photography/photo_various/photos/JKW_8654bewerkt-8654.tifbewerkt-large-8654webready-8654.jpg"/>
+<img class="ui fluid centered image" src="/assets/images/photography/photo_various/photos/JKW_8654bewerkt-8654.tifbewerkt-large-8654webready-8654.jpg"/>
 <br/>
 
 This was a long-exposure shot at a crossing, of 12 seconds. I didn't think to bring a tripod, so I had to hold it tight against a lanternpost. Seems like that worked. The stars are from the relatively closed aperture. Also really neat: You can see that some of the vehicles used PWM controlled LED lights- if you look at the green and yellow streaks, you'll notice they're made up of a lot of little dots!
