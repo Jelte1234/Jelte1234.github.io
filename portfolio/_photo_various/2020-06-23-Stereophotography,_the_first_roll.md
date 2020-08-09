@@ -45,4 +45,3 @@ Here, I added some Red/Blue anaglyph glasses to the front of the camera. It not 
 Theoretically, this image should be viewed with red/blue anaglyph glasses. However, it didn't work out entirely anyway. Due to the pole being saturated red, it's not showing up at all to the blue eye, whereas it's the same intensity as the white for the red eye. So, while the effect is interesting, it isn't suitable for saturated colors at least. Perhaps a less-strong filter could work for this application, however I don't have those on hand.
 </div>
 </div>
-
