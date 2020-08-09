@@ -28,7 +28,7 @@ The images for the skills are stored in `/images/skills/`.
 Add a new list-item to the `/_data/social_media.yml` file that contains the required fields.
 
 The images for the social media items are stored in `/images/social_media/`.
-These images are expected to be in `.svg` or `.png` format (or some other format with transparency). 
+These images are expected to be in `.svg` or `.png` format (or some other format with transparency).
 They will be rendered as a square, so make sure the image aspect ratio is also square.
 
 ### Adding a Portfolio-item
@@ -49,3 +49,14 @@ Images not belonging anywhere else are stored in `/images/` directly.
 ## Publishing
 
 By commiting + pushing the changes to the `master` branch in this repository, they will be published to GitHub pages, and visible at https://jelte1234.github.io/ .
+
+
+## Embedding video
+
+<iframe width="1127" height="700"
+src="https://www.youtube.com/embed/IDHERE"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+
+works to embed the video in full width. Adjust iframe width for smaller video.

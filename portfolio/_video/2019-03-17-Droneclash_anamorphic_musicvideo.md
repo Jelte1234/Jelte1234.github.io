@@ -6,7 +6,7 @@ preview_image_url: "/assets/images/photography/video/Droneclashthumb.jpg"
 
 <br/>
 
-<iframe width="560" height="315"
+<iframe width="1127" height="400"
 src="https://www.youtube.com/embed/t8CGQwxZ_rM"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
