@@ -11,6 +11,7 @@ This page is where I share my projects with the world.
 <br/>
 <br/>
 **I'm currently looking for work**
+<br/>
 Check out my [Curriculum](/assets/Jelte_Klas_Wijnja_CV.pdf){:target="_blank"}, and email me at jelteklaswijnja@gmail.com if you have any leads!
 
 
