@@ -15,6 +15,7 @@ Have a look at this picture.
 <br/>
 
 Notice anything wrong?
+<br/>
 .. it's a negative.
 But, not only is it a negative- it's an *anamorphic* negative. And, enlargers are only meant to deal with negatives.. So, how to still get a print from this that looks normal?
 The answer here comes in the reversibility of optics. If we just attach the anamorphic lens again to the enlarger, it will stretch out the picture. (also, any weird uneven stretching, sometimes known as "anamorphic mumps" should disappear since it's stretched by the same thing that squeezed it during recording!)
@@ -41,7 +42,9 @@ Did I mention yet that the anamorphic lens has a minimum focus distance of 1.5 m
 </div>
 
 The image that it produces is
+<br/>
 -quite sharp and detailed
+<br/>
 -very small!!
 
 <img class="ui fluid image" src="/assets/images/photography/photo_various/illustrative/photo_2020-08-09_13-27-24webready-24.jpg"/>
