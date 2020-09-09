@@ -91,4 +91,4 @@ Does it fulfill the design goals?
 Also, did I mention yet how cheap it is? If you were to print a single one, you'd have a printing time of 40 minutes. However, that's mainly due to layer cooling times- if you print five at once, the total print time is about three hours, so only 18 minutes per piece. Material costs, assuming 20 euro/kilogram, are 18 cents a piece, which makes them cheap and fast enough to print several of, and give away to anyone interested. Weight of the finished print is just a mere eight grams.
 
 Do you want to print your own?
-The file is <a href="https://www.thingiverse.com/thing:4592192">available on my Thingiverse.</a>
+The file is <a href="https://www.thingiverse.com/thing:4592192">available on my Thingiverse.</a>{:target="_blank"}
