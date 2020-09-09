@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "Anamorphic Photography"
-preview_image_url: "/assets/images/photography/photo_various/photos/JKW_8654bewerkt-8654.tifbewerkt-large-8654webready-8654.jpg"
+preview_image_url: "/assets/images/photography/photo_various/photos/AnamorphicPhotoThumb.jpg"
 ---
 
 <br/>

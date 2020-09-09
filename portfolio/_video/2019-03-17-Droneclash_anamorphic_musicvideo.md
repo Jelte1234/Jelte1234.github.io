@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: "DroneClash 2019: an Anamorphic music video"
+title: "DroneClash: Anamorphic music video"
 preview_image_url: "/assets/images/photography/video/Droneclashthumb.jpg"
 ---
 
