@@ -12,7 +12,7 @@ preview_image_url: "/assets/images/tinkering/lostPLAcasting/thumb.jpg"
 <div class="column">
 3D-printing is great. Within a few hours you can go from an idea to holding a physical model in your hands. However, it's always in plastic only.. And while that's often enough, there are cases where other material properties are desired. Usually those of metals. For a rather ambitious project, I've done a few trials. More on that project at the end of this post- first to the trials.
 <br/>
-For the big project I want to cast aluminium. However, the first challenge in casting is making the mold, which can be tried out with lead as well. Lead has a very low melting point, and as such can be cast easily with a propane torch. For this trial, I used a small but fairly intricate model which I got off <a href="https://www.thingiverse.com/thing:1229043">Thingiverse</a> - a small statue of an owl.
+For the big project I want to cast aluminium. However, the first challenge in casting is making the mold, which can be tried out with lead as well. Lead has a very low melting point, and as such can be cast easily with a propane torch. For this trial, I used a small but fairly intricate model which I got off <a href="https://www.thingiverse.com/thing:1229043">Thingiverse</a>{:target="_blank"} - a small statue of an owl.
 
 
 </div>
