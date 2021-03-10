@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "(Cardboard) Box Camera"
-preview_image_url: "/assets/images/photography/photo_tinker/Cardboard_box_camera/thumbnail.jpg"
+preview_image_url: "/assets/images/photography/photo_tinker/Cardboard_box_camera/Thumbnail.jpg"
 ---
 
 <br/>
