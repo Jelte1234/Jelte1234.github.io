@@ -11,6 +11,9 @@ This means that Jekyll's installation instructions apply; see [here](https://jek
 To run this project, run `bundle exec jekyll serve` in a terminal.
 Alternatively, doubleclick `start_jekyll_on_windows.bat` if you're on windows.
 
+Preview the website before a gitpush under http://localhost:4000
+
+
 If there's ever any errors, you know where to find me. You might try to just run `bundle install` in a terminal which will try to update application dependencies, but of course it very much depends on the error. Although I don't think there will be errors for the forseeable future. ;-)
 
 ## Editing
