@@ -150,3 +150,12 @@ Then, as the evening neared, I took out the aperture again and took another expo
 You can really tell the effect an aperture has on sharpness from these shots.
 
 <img class="ui fluid centered image" src="/assets/images/photography/photo_tinker/Cardboard_box_camera/boxcamera_f5.6_webready.jpg"/>
+<br/>
+<br/>
+<br/>
+
+All in all, these results are not half-bad, if you ask me, considering what they're made with.
+<br/>
+Results could've been improved further with the use of a color filter, as these get rid of chromatic aberration which is pretty severe due to the singlet lens.
+<br/>
+However, inspired by this success I decided to one-up myself, and build *an even bigger camera.* This will be featured in an upcoming post.
